@@ -1,5 +1,5 @@
 import TodoForm from "./TodoForm.tsx";
-import {useReducer} from "react";
+import {useEffect, useReducer} from "react";
 import TodoList from "./TodoList.tsx";
 import type {TodoProps, Action} from "./types.ts";
 
@@ -34,6 +34,9 @@ const todoReducer = (state: TodoProps[], action:Action): TodoProps[] => {
 
 const Todo = () => {
     const [todos, dispatch] = useReducer(todoReducer, []);
+    useEffect(() => {
+        document.title = "ToDoApp | JStam"
+    }, []);
 
     return (
         <>
