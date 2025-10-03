@@ -11,6 +11,14 @@ const CounterUseEffect = () => {
     },[])
 
 
+    function count() {
+        const countInterval = setInterval(timer, 1000)
+        setSecs(secs + 1);
+        if (stop) {
+            clearInterval(timer);
+        }
+    }
+
 
     const timer = setInterval(()=>{
         if(!stop){
@@ -23,18 +31,22 @@ const CounterUseEffect = () => {
 
 
 
-
-
-
-
     return (
         <>
             <div className="text-center">
                 <h1 className="text-center py-2 text-xl">Seconds: {secs}</h1>
                 <button
                     onClick={() => setStop(!stop)}
-
-                    className={"rounded bg-cf-dark-gray text-white w-14" + test }>{stop ? "Start" : "Stop"}</button>
+                    className={"rounded bg-cf-dark-gray text-white w-14" + test }
+                >
+                    {stop ? "Start" : "Stop"}
+                </button>
+                <button
+                    className="rounded bg-cf-dark-gray text-white w-14 mx-2"
+                    onClick={() => setSecs(0)}
+                >
+                    Clear
+                </button>
                 <h3 className="py-4">Total Seconds: {secs}</h3>
             </div>
 

@@ -8,7 +8,20 @@
 
 
 import Layout from "./components/Layout.tsx";
-import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
+import TodoAppMine1 from "./components/ToDoMine/todoAppMine1.tsx";
+// import CounterUseEffect from "./components/CounterUseEffect.tsx";
+// import TodoAppMine1 from "./components/ToDoMine/todoAppMine1.tsx";
+// import CounterUseReducer from "./components/CounterUseReducer.tsx";
+// import NameChanger from "./components/NameChanger.tsx";
+// import Todo from "./components/ToDoNew/Todo.tsx"
+// import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+// import CounterAdvancedWithCustomHook from "./components/CounterAdvancedWithCustomHook.tsx";
+// import CounterWithReducer from "./components/CounterWithReducer.tsx";
+// import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
+// import CounterAdvanced from "./components/CounterAdvanced.tsx";
+// import CounterMine from "./components/CounterMine.tsx";
+// import NameChanger from "./components/NameChanger.tsx";
+// import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 
@@ -27,7 +40,20 @@ function App() {
         <Layout>
             {/*<ArrowFunctionalComponent/>*/}
             {/*<ClassComponentWithState/>*/}
-            <FunctionalComponentWithState/>
+            {/*<FunctionalComponentWithState/>*/}
+            {/*<NameChanger/>*/}
+            {/*<CounterMine/>*/}
+            {/*<CounterWithMoreStates/>*/}
+            {/*<CounterAdvanced/>*/}
+            {/*<CounterWithCustomHook/>*/}
+            {/*<CounterAdvancedWithCustomHook/>*/}
+            {/*<CounterWithReducer/>*/}
+            {/*<Todo/>*/}
+            {/*<NameChanger/>*/}
+            {/*<CounterUseEffect/>*/}
+            <TodoAppMine1/>
+            {/*<CounterUseReducer/>*/}
+
 
         </Layout>
 
