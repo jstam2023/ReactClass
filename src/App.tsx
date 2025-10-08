@@ -8,12 +8,15 @@
 
 
 import Layout from "./components/Layout.tsx";
-import TodoAppMine1 from "./components/ToDoMine/todoAppMine1.tsx";
+// import OnLineStatus from "./components/OnLineStatus.tsx";
+// import Timer from "./components/Timer/Timer.tsx";
+// import UseEffect1 from "./components/ToDoMine/UseEffect1.tsx";
+// import TodoAppMine1 from "./components/ToDoMine/todoAppMine1.tsx";
 // import CounterUseEffect from "./components/CounterUseEffect.tsx";
 // import TodoAppMine1 from "./components/ToDoMine/todoAppMine1.tsx";
 // import CounterUseReducer from "./components/CounterUseReducer.tsx";
 // import NameChanger from "./components/NameChanger.tsx";
-// import Todo from "./components/ToDoNew/Todo.tsx"
+import Todo from "./components/ToDoNew/Todo.tsx"
 // import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import CounterAdvancedWithCustomHook from "./components/CounterAdvancedWithCustomHook.tsx";
 // import CounterWithReducer from "./components/CounterWithReducer.tsx";
@@ -24,6 +27,7 @@ import TodoAppMine1 from "./components/ToDoMine/todoAppMine1.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
+// import TodoAppMine1 from "./components/ToDoMine/todoAppMine1.tsx";
 
 function App() {
     // const name  = "John"
@@ -48,12 +52,14 @@ function App() {
             {/*<CounterWithCustomHook/>*/}
             {/*<CounterAdvancedWithCustomHook/>*/}
             {/*<CounterWithReducer/>*/}
-            {/*<Todo/>*/}
+            <Todo/>
             {/*<NameChanger/>*/}
             {/*<CounterUseEffect/>*/}
-            <TodoAppMine1/>
+            {/*<TodoAppMine1/>*/}
             {/*<CounterUseReducer/>*/}
-
+            {/*<Timer/>*/}
+            {/*<OnLineStatus/>*/}
+            {/*<UseEffect1/>*/}
 
         </Layout>
 
