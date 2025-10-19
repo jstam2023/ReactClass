@@ -1,22 +1,24 @@
-import React from 'react';
 import HeaderResponsive from "./HeaderResponsive.tsx";
 import Footer from "./Footer.tsx";
+import {Outlet} from "react-router";
+import { Toaster } from "sonner"
 
-interface LayoutProps{
-    children: React.ReactNode;
-}
 
-const Layout = ({children}:LayoutProps) => {
+
+
+const RouterLayout= () => {
     return (
         <>
-            <HeaderResponsive/>
+            <HeaderResponsive />
             <div className="container mx-auto min-h-[96vh] pt-24">
-                {children}
-
+                <Outlet/>
             </div>
             <Footer/>
+            <Toaster />
+
+
         </>
     )
 }
 
-export default Layout
+export default RouterLayout;

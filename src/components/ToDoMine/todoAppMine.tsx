@@ -10,7 +10,7 @@ const TodoAppMine = () => {
 
     const handleNote = () => {
         setNote(text);
-        setText("")
+        setText("");
 
     }
 
@@ -27,7 +27,7 @@ const TodoAppMine = () => {
                     <input
                         placeholder=" Enter note..."
                         className="border rounded-sm h-8 w-auto"
-                        onChange={(e) => setText(e.target.value)}s
+                        onChange={(e) => setText(e.target.value)}
                         type="text" value={text}/>
                     <button
                         onClick={handleNote}
